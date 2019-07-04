@@ -32,6 +32,8 @@ class TalkViewCell: UITableViewCell {
     private lazy var thumbnailImageView: UIImageView = {
         let v = UIImageView()
         v.contentMode = .scaleAspectFit
+        v.layer.cornerRadius = 10
+        v.clipsToBounds = true
 
         return v
     }()
