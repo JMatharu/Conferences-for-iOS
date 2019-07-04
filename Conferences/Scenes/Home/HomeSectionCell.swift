@@ -32,12 +32,12 @@ final class HomeSectionCell: UICollectionViewCell {
 
         titleLabel.textAlignment = .left
         titleLabel.lineBreakMode = .byTruncatingTail
-        titleLabel.font = UIFont.small
+        titleLabel.font = UIFont.medium
 
         subtitleLabel.textColor = UIColor.lightGray
         subtitleLabel.textAlignment = .left
         subtitleLabel.lineBreakMode = .byTruncatingTail
-        subtitleLabel.font = UIFont.tiny
+        subtitleLabel.font = UIFont.small
 
         imageView.contentMode = .scaleAspectFill
         imageView.image = UIImage(named: "placeholder")

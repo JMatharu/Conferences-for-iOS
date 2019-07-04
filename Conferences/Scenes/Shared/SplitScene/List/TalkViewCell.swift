@@ -38,7 +38,7 @@ class TalkViewCell: UITableViewCell {
 
     private lazy var titleLabel: UILabel = {
         let l = UILabel()
-        l.font = .small
+        l.font = .medium
         l.lineBreakMode = .byTruncatingTail
         l.numberOfLines = 1
 
@@ -47,7 +47,7 @@ class TalkViewCell: UITableViewCell {
 
     private lazy var subtitleLabel: UILabel = {
         let l = UILabel()
-        l.font = .tiny
+        l.font = .small
         l.lineBreakMode = .byTruncatingTail
 
         return l
@@ -55,7 +55,7 @@ class TalkViewCell: UITableViewCell {
 
     private lazy var descriptionLabel: UILabel = {
         let l = UILabel()
-        l.font = .tiny
+        l.font = .small
         l.textColor = .tertiaryText
         l.lineBreakMode = .byTruncatingTail
 
