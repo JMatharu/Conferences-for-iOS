@@ -37,7 +37,7 @@ class Config {
     }
 
     func loadDefaultModels() -> [HomeSection] {
-        if let url = Bundle.main.url(forResource: "HomeSectionsga", withExtension: "json") {
+        if let url = Bundle.main.url(forResource: "HomeSections", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
